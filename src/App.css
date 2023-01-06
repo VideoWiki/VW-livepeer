@@ -26,14 +26,42 @@
   width: 80%;
 }
 
-.flex {
+.grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 0 40px;
+  grid-template-columns: 2fr 1fr;
+  padding: 40px 40px;
 
 }
 
 .content {
   padding: 0 50px;
   text-align: justify;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex div * {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: #544837 !important;
+}
+
+.description {
+  padding-top: 20px;
+}
+
+.avatar {
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.address {
+  font-size: small;
 }
