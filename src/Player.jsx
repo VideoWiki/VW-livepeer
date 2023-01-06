@@ -19,7 +19,7 @@ export function Player(props) {
   console.log(searchParams.get("url"));
 
   return (
-    <div>
+    <div className="padding hidden">
       <LivepeerConfig client={client}>
         <DecentralizedStoragePlayback />
       </LivepeerConfig>
