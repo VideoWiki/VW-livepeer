@@ -14,6 +14,7 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import { padding } from "@mui/system";
+import logo from "./logo.svg";
 
 const drawerWidth = 240;
 const navItems = [
@@ -32,7 +33,7 @@ function Navbar(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <img src="./logo.svg" width={40} alt="VideoWiki1" />
+      <img src={logo} width={40} alt="VideoWiki1" />
       <Typography
         variant="h6"
         component="div"
@@ -71,7 +72,7 @@ function Navbar(props) {
           >
             <MenuIcon />
           </IconButton>
-          <img src="./logo.svg" width={40} alt="VideoWiki" />
+          <img src={logo} width={40} alt="VideoWiki" />
           <Typography
             variant="h6"
             component="div"
