@@ -7,6 +7,7 @@ import { useMemo, useState, useEffect } from "react";
 import { Navigate, useSearchParams } from "react-router-dom";
 import { getFilesFromPath, Web3Storage } from "web3.storage";
 import images from "./RandomAvatar.svg";
+import loader from "./Loader.gif";
 
 export const DecentralizedStoragePlayback = () => {
   const [url, setUrl] = useState("");
@@ -72,7 +73,9 @@ export const DecentralizedStoragePlayback = () => {
             <p className="description">{description}</p>
           </div>
         </div>
-      ) : null}
+      ) : (
+        <img src={loader} />
+      )}
     </>
   );
 };
