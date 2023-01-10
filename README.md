@@ -161,12 +161,12 @@ Some Features of Cast:
                 You can attend to the details by customizing various options like room layouts, camera and mic accesses, etc. to suit your cast experience.
 
 
-### REQUIREMENTS
+### REQUIREMENTS to install the repo
 1. Node v14.18.1
 2. NPM v16.14.5
 
 
-### INSTALLATION
+### INSTALLATION steps
 1. Fork the repository
 2. Clone the repository
 3. Download the modules with the commmand `npm install`
